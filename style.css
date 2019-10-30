@@ -1,0 +1,166 @@
+html{
+    overflow-x: hidden;
+    margin: -9px;
+    background: url("img/BACKGROUND.png");
+}
+.header{
+    height: 735px;
+    width: 1320px;
+    margin: 0 auto;
+}
+.head-img{
+    background: url("img/header-front2.jpg") no-repeat;
+    width: 1241px;
+    height: 580px;
+    margin-left: 39px;
+    position: absolute;
+}
+.IN_IT{
+    height: 412px;
+    background:#212429;
+}
+.top{
+    display: flex;
+}
+.MENU{
+    width: 62px;
+    height: 55px;
+    background: url("img/Menu_Icon.png") no-repeat;
+    border-right: 1px solid #3c3c3c;
+    margin-left: 39px;
+}
+.TOP_TEXT{
+    width: 151px;
+    height: 16px;
+    background: url("img/DECOBLOG.png") no-repeat;
+    margin: 17px 331px;
+}
+.CONTACTS{
+    width: 270px;
+    height: 55px;
+    background: url("img/SETI.png") no-repeat;
+    margin-left: 96px;
+}
+.RIGHT_TEXT{
+   width: 42px;
+   height: 252px;
+   background: url("img/RIGHT_TEXT.png");
+   margin-left: 1138px;
+   position: absolute;
+   margin-top: -171px;
+}
+.NEWS{
+color: #ffffff;
+font-family: "Hind - Semibold";
+font-size: 18px;
+margin-top: 231px;
+margin-left: 99px;
+font-weight: 400;
+}
+.NEWS_TEXT{
+    color: #ffffff;
+    font-family: "Hind";
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-left: 100px;
+}
+.FORM{
+    display: flex;
+    margin: 542px auto;
+    width: 1380px;
+    height: 100px;
+    background-color: #f7f7f7;
+    align-items: center;
+}
+.LEFT_TEXT_UNDER_IMG{
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    margin-left: 15px;
+}
+#NAME{
+    width: 450px;
+    height: 50px;
+    border: 0;
+    position: absolute;
+    margin-left: 164px;
+    margin-top: -51px;
+}
+#MAIL{
+    position: absolute;
+    width: 450px;
+    height: 50px;
+    margin-left: 625px;
+    margin-top: -51px;
+    border: 0;
+}
+#BUTT{
+    position: absolute;
+    width: 282px;
+    height: 50px;
+    letter-spacing: 2.8px;
+    color: #ffffff;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #212121;
+    border: 0;
+    margin-left: 1086px;
+    margin-top: -49px;
+}
+::-webkit-input-placeholder{
+    color: #999999;
+    padding-left: 30px;
+}
+.TEXT_BLOCK{
+    width: 360px;
+    height: 482px;
+    margin-left: 54px;
+}
+.BLOCK{
+    background-color: #ffffff;
+}
+.main{
+    width: 1517px;
+    height: 1549px;
+    margin: 0 auto;
+}
+.TOP_IMG{
+    width: 45px;
+    height: 40px;
+    background: url("img/PEN.png");
+    margin-top: -17px;
+    margin-left: 141px;
+    position: absolute;
+}
+.TOPPER_TEXT{
+    color: #999999;
+    font-size: 14px;
+}
+.MID{
+    padding-top: 36px;
+    padding-left: 117px;
+}
+.TOP_TXT{
+    text-transform: uppercase;
+    margin-right: 24px;
+    margin-left: -70px;
+    font-size: 20px;
+    margin-top: 19px;
+}
+.UNDER_TOP_TXT{
+    color: #999999;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1.4px;
+    margin-top: 19px;
+    margin-left: -20px;
+}
+.UNDER_UNDER_TOP_TXT{
+color: #464646;
+font-size: 15px;
+letter-spacing: 1.5px;
+margin-right: -218px;
+padding-right: 189px;
+}
