@@ -2,6 +2,7 @@ html{
     overflow-x: hidden;
     margin: -9px;
     background: url("img/BACKGROUND.png");
+    font-family: 'Hind', sans-serif;
 }
 .header{
     height: 735px;
@@ -77,6 +78,7 @@ font-weight: 400;
     font-weight: 700;
     letter-spacing: 4px;
     margin-left: 15px;
+    font-family: 'Montserrat', sans-serif;
 }
 #NAME{
     width: 450px;
@@ -112,11 +114,12 @@ font-weight: 400;
 ::-webkit-input-placeholder{
     color: #999999;
     padding-left: 30px;
+    font-size: 15px;
 }
 .TEXT_BLOCK{
     width: 360px;
     height: 482px;
-    margin-left: 54px;
+    margin-left: -4px;
 }
 .BLOCK{
     background-color: #ffffff;
@@ -126,7 +129,7 @@ font-weight: 400;
     height: 1549px;
     margin: 0 auto;
 }
-.TOP_IMG{
+.TOP_IMG_PEN{
     width: 45px;
     height: 40px;
     background: url("img/PEN.png");
@@ -137,15 +140,18 @@ font-weight: 400;
 .TOPPER_TEXT{
     color: #999999;
     font-size: 14px;
+    margin-left: 21px;
 }
 .MID{
     padding-top: 36px;
     padding-left: 117px;
+    border-bottom: 1px solid #d7d7d7;
+    padding-bottom: 25px;
 }
 .TOP_TXT{
     text-transform: uppercase;
     margin-right: 24px;
-    margin-left: -70px;
+    margin-left: -35px;
     font-size: 20px;
     margin-top: 19px;
 }
@@ -161,6 +167,154 @@ font-weight: 400;
 color: #464646;
 font-size: 15px;
 letter-spacing: 1.5px;
-margin-right: -218px;
-padding-right: 189px;
+margin-top: 28px;
+position: absolute;
+margin-left: -75px;
+}
+.READ_MORE{
+    width: 128px;
+    height: 30px;
+    background: url("img/READ_MORE.png");
+    margin-top: 180px;
+}
+.COMMENT{
+    color: #999999;
+    font-size: 14px;
+    font-weight: 400;
+    display: flex;
+    margin-left: 30px;
+    margin-top: 120px;
+    margin-bottom: 24px;
+}
+.COMMENT::before{
+    content: '';
+    display: flex;
+    width: 16px;
+    height: 12px;
+    background: url("img/COMMENT.png") no-repeat;
+    margin-right: 9px;
+}
+.SOC_SETI{
+    width: 105px;
+    height: 15px;
+    background: url("img/SOC_SETI.png") no-repeat;
+    position: absolute;
+    margin-left: 247px;
+    margin-top: -45px;
+}
+.TEXT_BLOCK_BOTT{
+    margin-top: -46px;
+}
+.IMAGE_POST_WITH_ONE_PHOTO{
+    width: 360px;
+    height: 555px;
+    margin-left: 30px;
+    background-color: #ffffff;
+}
+.IMAGE{
+    width: 360px;
+    height: 256px;
+    background-color: #f4f4f4;
+}
+.TOP_IMG_IMAGE{
+    width: 45px;
+    height: 40px;
+    background: url("img/IMAGE.png");
+    margin-top: -17px;
+    margin-left: 160px;
+    position: absolute;
+}
+.READ_MOREE{
+    width: 128px;
+    height: 30px;
+    background: url("img/READ_MORE.png");
+    margin-top: 21px;
+}
+.IMAGE_BLOCK_BOTT{
+    margin-top: -80px;
+}
+.TEXT_BLOCK_TWO{
+    width: 360px;
+    height: 399px;
+    background: #ffffff;
+    margin-left: 30px;
+}
+.TEEXT_BLOCK_BOTT{
+    margin-top: -115px;
+}
+.CLEAR_BLOCK{
+    width: 360px;
+    height: 513px;
+    background: #ffffff;
+    margin-left: 30px;
+}
+.FST_ROW{
+    display: flex;
+}
+.SEC_ROW{
+    display: flex;
+    margin-left: -32px;
+}
+.KAVICHKI{
+    width: 360px;
+    height: 329px;
+    background-color: #212429;
+    margin-top: 46px;
+    margin-left: 30px;
+}
+.READ_MOREEE{
+    width: 128px;
+    height: 30px;
+    background: url("img/READ_MORE.png");
+    margin-top: 160px;
+}
+.TOP_IMG_KAVICHKI{
+    width: 45px;
+    height: 40px;
+    background: url("img/KAVICHKI.png") no-repeat;
+    margin-left: 150px;
+    margin-top: -20px;
+}
+.KAVICHKI_TXT{
+    text-align: center;
+    color: #ffffff;
+    margin-top: 41px;
+    letter-spacing: 1.7px;
+    font-size: 17px;
+}
+.AUTHOR{
+    text-transform: uppercase;
+    color: #999999;
+    margin-top: 38px;
+    margin-left: 118px;
+}
+.KOLAZH_BLOCK{
+    width: 360px;
+    height: 555px;
+    background: #ffffff;
+    margin-left: 24px;
+    margin-top: -133px;
+}
+.FOUR_IMAGES{
+    height: 259px;
+    border-bottom: 1px solid rgba(221, 221, 221, 0.15);
+}
+.TOP_LEFT, .TOP_RIGHT, .BOTTOM_RIGHT{
+    width: 181px;
+    height: 128px;
+    border: 1px solid rgba(221, 221, 221, 0.15);
+}
+.BOTTOM_RIGHT{
+    float: right;
+    margin-top: -260px;
+    width: 176px;
+}
+.REEAD_MORE{
+    width: 97px;
+    height: 31px;
+    background: url("img/REEAD_MORE.png");
+    margin-top: 21px;
+}
+.TEEEXT_BLOCK_BOTT{
+    margin-top: -76px;
 }
