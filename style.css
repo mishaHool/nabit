@@ -318,3 +318,131 @@ margin-left: -75px;
 .TEEEXT_BLOCK_BOTT{
     margin-top: -76px;
 }
+.TEXT_BLOCK_TREE{
+    width: 360px;
+    height: 482px;
+    background: #ffffff;
+    margin-left: 30px;
+}
+.REEAD_MOREEE{
+    width: 129px;
+    height: 31px;
+    background: url("img/READ_MORE.png");
+    margin-top: 178px;
+
+}
+.TEEEXT_BLOOCK_BOTT{
+    margin-top: -52px;
+}
+.BLOCK_WITH_BACKGROUND{
+    width: 360px;
+    height: 489px;
+    background: url("img/BACKGROUND_BLOCK.png") no-repeat;
+    margin-top: 30px;
+}
+.MIDA{
+    padding-top: 36px;
+    padding-left: 117px;
+}
+.REEADD_MOREEE{
+    width: 129px;
+    height: 31px;
+    background: url("img/READ_MORE.png");
+    margin-top: 280px;
+}
+.VIDEO_BLOCK{
+    width: 360px;
+    height: 566px;
+    background: #ffffff;
+    margin-left: 30px;
+    margin-top: -100px;
+}
+.PLAYER{
+    width: 360px;
+    background: url("img/PLAYER.png");
+    height: 256px;
+}
+.TOP_IMG_VIDEO{
+    width: 45px;
+    height: 40px;
+    background: url("img/VIDEO.png");
+    margin-top: -17px;
+    margin-left: 141px;
+    position: absolute;
+}
+.THR_ROW{
+    display: flex;
+}
+.MIDB{
+    padding-top: 36px;
+    padding-left: 117px;
+    border-bottom: 1px solid rgba(221, 221, 221, 0.15);
+    height: 230px;
+}
+.TEEEXXT_BLOOCK_BOTT{
+    margin-top: -100px;
+}
+.LINK_BLOCK{
+    width: 360px;
+    background: #212429;
+    height: 177px;
+    margin-left: 30px;
+    margin-top: -60px;
+}
+.TOP_IMG_LINK{
+    width: 40px;
+    background: url("img/LINK.png") no-repeat;
+    height: 35px;
+    margin-top: -17px;
+    margin-left: 141px;
+    position: absolute;
+}
+.LINK{
+    color: #ffffff;
+    text-align: center;
+}
+.CONTENT{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+.ONLY_IMAGE_BLOCK{
+    width: 360px;
+    height: 289px;
+    background: #212429;
+    margin-top: 160px;
+    margin-left: -357px;
+}
+.TOP_IMG_WINDOW{
+    width: 40px;
+    background: url("img/WINDOW.png") no-repeat;
+    height: 35px;
+    margin-top: -17px;
+    margin-left: 141px;
+    position: absolute;
+
+}
+.AUDIO_BLOCK{
+    width: 360px;
+    height: 454px;
+    background: #ffffff;
+    margin-left: 30px;
+}
+.TOP_IMG_MUSIC{
+    width: 40px;
+    background: url("img/MUSIC.png") no-repeat;
+    height: 35px;
+    margin-top: -17px;
+    margin-left: 141px;
+    position: absolute;
+}
+.MUUSIC{
+    width: 135px;
+    height: 135px;
+    background: url("img/MUUSIC_CIRCLE.png") no-repeat;
+}
+.CON{
+    padding-top: 36px;
+    padding-left: 117px;
+}
