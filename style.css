@@ -3,6 +3,8 @@ html{
     margin: -9px;
     background: url("img/BACKGROUND.png");
     font-family: 'Hind', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
 }
 .header{
     height: 735px;
@@ -29,6 +31,7 @@ html{
     background: url("img/Menu_Icon.png") no-repeat;
     border-right: 1px solid #3c3c3c;
     margin-left: 39px;
+    cursor: pointer;
 }
 .TOP_TEXT{
     width: 151px;
@@ -39,8 +42,8 @@ html{
 .CONTACTS{
     width: 270px;
     height: 55px;
-    background: url("img/SETI.png") no-repeat;
     margin-left: 96px;
+    display: flex;
 }
 .RIGHT_TEXT{
    width: 42px;
@@ -176,15 +179,17 @@ margin-left: -75px;
     height: 30px;
     background: url("img/READ_MORE.png");
     margin-top: 180px;
+    cursor: pointer;
 }
 .COMMENT{
     color: #999999;
     font-size: 14px;
     font-weight: 400;
     display: flex;
-    margin-left: 30px;
+    margin-right: 240px;
     margin-top: 120px;
     margin-bottom: 24px;
+    cursor: pointer;
 }
 .COMMENT::before{
     content: '';
@@ -197,10 +202,10 @@ margin-left: -75px;
 .SOC_SETI{
     width: 105px;
     height: 15px;
-    background: url("img/SOC_SETI.png") no-repeat;
     position: absolute;
     margin-left: 247px;
     margin-top: -45px;
+    display: flex;
 }
 .TEXT_BLOCK_BOTT{
     margin-top: -46px;
@@ -229,6 +234,7 @@ margin-left: -75px;
     height: 30px;
     background: url("img/READ_MORE.png");
     margin-top: 21px;
+    cursor: pointer;
 }
 .IMAGE_BLOCK_BOTT{
     margin-top: -80px;
@@ -267,6 +273,7 @@ margin-left: -75px;
     height: 30px;
     background: url("img/READ_MORE.png");
     margin-top: 160px;
+    cursor: pointer;
 }
 .TOP_IMG_KAVICHKI{
     width: 45px;
@@ -314,6 +321,7 @@ margin-left: -75px;
     height: 31px;
     background: url("img/REEAD_MORE.png");
     margin-top: 21px;
+    cursor: pointer;
 }
 .TEEEXT_BLOCK_BOTT{
     margin-top: -76px;
@@ -329,7 +337,7 @@ margin-left: -75px;
     height: 31px;
     background: url("img/READ_MORE.png");
     margin-top: 178px;
-
+    cursor: pointer;
 }
 .TEEEXT_BLOOCK_BOTT{
     margin-top: -52px;
@@ -349,6 +357,7 @@ margin-left: -75px;
     height: 31px;
     background: url("img/READ_MORE.png");
     margin-top: 280px;
+    cursor: pointer;
 }
 .VIDEO_BLOCK{
     width: 360px;
@@ -445,4 +454,165 @@ margin-left: -75px;
 .CON{
     padding-top: 36px;
     padding-left: 117px;
+}
+.FOOT{
+    width: 1638px;
+    height: 412px;
+    background-color: #212429;
+    padding-top: 59px;
+    padding-left: 54px;
+    display: flex;
+    margin: 70px auto;
+}
+.ABOUT_BLOG_TOP_TXT{
+    color: #f9f9fb;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.ABOUT_BLOG_TEXT{
+    color: #f9f9fb;
+    font-family: 'Hind', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    margin-top: 39px;
+}
+.ABOUT_BLOG_ROSPIS{
+    width: 361px;
+    height: 147px;
+    background: url("img/ROSPIS.png") no-repeat;
+    margin-top: 11px;
+}
+.TWEETS{
+    margin-left: 30px;
+}
+.TWEETS_TOP_TXT{
+    color: #f9f9fb;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+input{
+    color: #999999;
+    padding-left: 30px;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.FST{
+    width: 57px;
+    height: 55px;
+    background: url("img/DELITSA.png") no-repeat;
+    cursor: pointer;
+}
+.SEC{
+    width: 57px;
+    height: 55px;
+    background: url("img/TWITTER.png") no-repeat;
+    cursor: pointer;
+}
+.THR{
+    width: 53px;
+    height: 55px;
+    background: url("img/T.png") no-repeat;
+    cursor: pointer;
+}
+.FOU{
+    width: 57px;
+    height: 55px;
+    background: url("img/FACEBOOK.png") no-repeat;
+    cursor: pointer;
+}
+.FIF{
+    width: 59px;
+    height: 55px;
+    background: url("img/SEEK.png") no-repeat;
+    cursor: pointer;
+    margin-left: -6px;
+}
+.FST_ICON{
+    width: 13px;
+    height: 14px;
+    background: url("img/BALL.png") no-repeat;
+    cursor: pointer;
+}
+.SEC_ICON{
+    width: 13px;
+    height: 14px;
+    background: url("img/FACEBOOK_ICO.png") no-repeat;
+    cursor: pointer;
+    margin-left: 19px;
+}
+.THR_ICON{
+    width: 14px;
+    height: 14px;
+    background: url("img/TWIT_ICON.png") no-repeat;
+    cursor: pointer;
+    margin-left: 19px;
+}
+.FOU_ICON{
+    width: 13px;
+    height: 14px;
+    background: url("img/PAINTEREST.png") no-repeat;
+    cursor: pointer;
+    margin-left: 19px;
+}
+.FST_NICKNAME{
+    width: 213px;
+    height: 14px;
+    background: url("img/FST_TWEET.png") no-repeat;
+    margin-top: 38px;
+}
+.FST_TWEET{
+    margin-left: -30px;
+}
+.FST_DESCRIPTION{
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 300;
+    margin-left: 30px;
+    margin-top: 19px;
+}
+.SEC_NICKNAME{
+    width: 213px;
+    height: 14px;
+    background: url("img/FST_TWEET.png") no-repeat;
+    margin-top: 38px;
+}
+.SEC_TWEET{
+    margin-left: -30px;
+}
+.SEC_DESCRIPTION{
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 300;
+    margin-left: 30px;
+    margin-top: 19px;
+}
+.INSTAGRAM{
+    margin-left: 30px;
+}
+.INSTAGRAM_TOP_TXT{
+    color: #f9f9fb;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-left: 33px;
+}
+.INSTA_BLOCK{
+    width: 119px;
+    height: 98px;
+    background-color: #f9f9fb;
+    margin-right: 2px;
+    margin-bottom: 2px;
+    margin-left: 2px;
+}
+.INSTA_FST_ROW{
+    display: flex;
+    margin-top: 39px;
+}
+.INSTA_SEC_ROW{
+    display: flex;
 }
